@@ -1,4 +1,11 @@
 /// @description change rock when hit by bullet
+if (obj_game.powerup_time < 0)
+{
+	var _obj = choose(obj_powerup_spread, obj_powerup_ghost);
+	instance_create_layer(x, y, "Instances", _obj);
+	obj_game.powerup_time = 20;
+}
+
 instance_destroy(other);
 effect_create_above(ef_explosion, x, y, 1, c_white);
 direction = random(360);
