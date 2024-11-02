@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":18,"path":"folders/Fonts.yy",},
+    {"name":"Sounds","order":19,"path":"folders/Sounds.yy",},
     {"name":"Objects","order":17,"path":"folders/Objects.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
@@ -16,6 +17,9 @@
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_rock","order":2,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
+    {"name":"snd_music","order":1,"path":"sounds/snd_music/snd_music.yy",},
+    {"name":"snd_rockdestroy","order":2,"path":"sounds/snd_rockdestroy/snd_rockdestroy.yy",},
+    {"name":"snd_shoot","order":3,"path":"sounds/snd_shoot/snd_shoot.yy",},
     {"name":"spr_button","order":4,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_deep_space","order":6,"path":"sprites/spr_deep_space/spr_deep_space.yy",},
     {"name":"spr_earth","order":5,"path":"sprites/spr_earth/spr_earth.yy",},
